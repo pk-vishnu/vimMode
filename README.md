@@ -12,3 +12,16 @@ Adds Vim-style navigation and multi-line editing for ChannelTextArea, with mode 
 - Count support (`5w`, `3x`, etc.)
 - Toggle `j`/`k`: scroll chat <-> move cursor
 - Status bar shows mode, count, and pending keys
+
+## Installation
+
+Vencord requires building from source to use custom plugins.
+
+Follow the official [setup guide](https://docs.vencord.dev/installing/custom-plugins/)  
+
+1. Go to your `src/userplugins` folder  
+2. Clone command
+   ```sh
+   git clone https://github.com/pk-vishnu/vimMode/
+   ```
+3. Build and inject 
