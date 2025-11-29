@@ -72,7 +72,7 @@ const VimScrollToggle: ChatBarButtonFactory = ({ isMainChat }) => {
 
 export default definePlugin({
     name: "VimMode",
-    authors: [Devs.iamvpk_],
+    authors: [{ name: "iamvpk_", id: 696663007023071233n }],
     description: "Vim-style navigation & motions",
     settings: settings,
     chatBarButton: {
